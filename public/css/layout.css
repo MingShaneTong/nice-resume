@@ -114,6 +114,27 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #0762f9; }
 
+header .scrollup a {
+   position: fixed;
+   bottom: 30px;
+   left: 90%;
+   margin-left: -29px;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #418890;
+   border-radius: 100%;
+   z-index: 1;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+header .scrollup a:hover { color: #0762f9; }
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -196,6 +217,13 @@ ul#nav li.current a { color: #fe6928; }
    color: #fff;
    margin-bottom: 12px;
 }
+
+#about h3 {
+   font: 18px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+
 #about p {
    line-height: 30px;
    color: #ccc;
@@ -279,25 +307,18 @@ ul#nav li.current a { color: #fe6928; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-
-.bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
-}
-.bars .skills {
+.skills {
   	margin-top: 36px;
    list-style: none;
 }
-.bars li {
+.skills li {
    position: relative;
   	margin-bottom: 60px;
   	background: #333;
   	height: 42px;
   	border-radius: 0px;
 }
-.bars li em {
+.skills li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
@@ -305,19 +326,6 @@ ul#nav li.current a { color: #fe6928; }
 	font-weight: normal;
    position: relative;
 	top: -36px;
-}
-.bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 0px;
 }
 /*
 .git {
@@ -817,9 +825,14 @@ call-to-action .button {
    float: left;
    color: #ebeeee;
 }
-
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+
+#contact h5 {
+   font: 16px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
@@ -857,7 +870,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #0762f9;
+	background-color: #646464;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -876,7 +889,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #0762f9;
+	color: #f92307;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -1016,7 +1029,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .social .btn i{
    margin-right: 15px;
 }
-.project-btn{
+.linkedin-btn{
    background-color: #1abc9c !important;
 }
 .github-btn{

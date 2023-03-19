@@ -211,6 +211,7 @@
 
     /* scrolldown link */
    header .scrolldown { display: none; }
+   header .scrollup { display: none; }
 
 
    /* About Section

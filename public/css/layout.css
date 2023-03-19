@@ -114,6 +114,27 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #0762f9; }
 
+header .scrollup a {
+   position: fixed;
+   bottom: 30px;
+   left: 90%;
+   margin-left: -29px;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #418890;
+   border-radius: 100%;
+   z-index: 1;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+header .scrollup a:hover { color: #0762f9; }
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {

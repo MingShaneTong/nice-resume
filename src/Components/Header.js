@@ -83,6 +83,12 @@ class Header extends Component {
             <i className="icon-down-circle"></i>
           </a>
         </p>
+
+        <p className="scrollup" id="scrollup-button">
+          <a className="smoothscroll" data-anchor="#home">
+            <i className="icon-up-circle"></i>
+          </a>
+        </p>
       </header>
     );
   }

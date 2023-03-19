@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import './index.css';
 import Home from './page/Home';
+import ContactMe from './page/ContactMe';
 
 const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/contactme",
+    element: <ContactMe />,
   }
 ]);
 

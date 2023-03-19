@@ -23,7 +23,10 @@ class Resume extends Component {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p>
+            {education.description.reduce(
+              (paragraph, line) => [paragraph, <br />, line])}
+          </p>
         </div>
       );
     });
@@ -32,25 +35,27 @@ class Resume extends Component {
       return (
         <div key={work.company}>
           <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
-          </p>
-          <p>{work.description}</p>
+          {work.positions.map(function (position) {
+            return (
+              <div key={position.title}>
+                <p className="info">
+                  {position.title}
+                  <span>&bull;</span> <em className="date">{position.years}</em>
+                </p>
+                <p>{position.description.reduce((paragraph, line) => [paragraph, <br />, line])}</p>
+              </div>
+            )
+          })}
         </div>
       );
     });
 
-    const skills = this.props.data.skills.map((skills) => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
-
+    const skills = this.props.data.skills.map(function (skills) {
       return (
-        <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
+        <div key={skills.skill} className="six columns">
+          <h3>{skills.skill}</h3>
+          {skills.value.reduce((paragraph, line) => [paragraph, <br />, line])}
+        </div>
       );
     });
 
@@ -92,13 +97,7 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
-            </div>
+            <div className="nine columns main-col">{skills}</div>
           </div>
         </Slide>
       </section>

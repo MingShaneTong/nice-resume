@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 
     $(".smoothscroll").on("click", function(e) {
       e.preventDefault();
-      var target = this.hash,
+      var target = $(this).data('anchor'),
         $target = $(target);
 
       $("html, body")

@@ -1,20 +1,10 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
 
-class Resume extends Component {
-  getRandomColor() {
-    let letters = "0123456789ABCDEF";
-    let color = "#";
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
-
+class CV extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -60,7 +50,7 @@ class Resume extends Component {
     });
 
     return (
-      <section id="resume">
+      <section id="cv">
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
@@ -105,4 +95,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default CV;

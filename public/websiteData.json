@@ -32,7 +32,7 @@
       "messageentry": "entry.839337160"
     }
   },
-  "resume":{
+  "cv":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
@@ -138,8 +138,8 @@
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"cv Website",
+        "category":"A React based cv website template",
         "image":"04.jpg",
         "url":"http://www.timbakerdev.com"
       },
@@ -174,8 +174,8 @@
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"cv Website",
+        "category":"A React based cv website template",
         "image":"04.jpg",
         "url":"http://www.timbakerdev.com"
       },

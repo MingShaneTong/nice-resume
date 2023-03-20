@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
-  var time = 380;
+  var time = 150;
   setTimeout(function() {
+    $("#scrollup-button").hide();
     if ($(window).width() >= 767) {
       $("#nav-wrap > .mobile-btn").hide();
       $("#nav-wrap > ul#nav").show();
@@ -27,9 +28,9 @@ jQuery(document).ready(function($) {
         );
     });
 
-    $("header").css({ height: $(window).height() });
+    $("header#home").css({ height: $(window).height() });
     $(window).on("resize", function() {
-      $("header").css({ height: $(window).height() });
+      $("header#home").css({ height: $(window).height() });
       $("body").css({ width: $(window).width() });
       if ($(window).width() >= 767) {
         $("#nav-wrap > .mobile-btn").hide();
@@ -40,7 +41,7 @@ jQuery(document).ready(function($) {
     });
 
     $(window).on("scroll", function() {
-      var h = $("header").height();
+      var h = $("header#home").height();
       var y = $(window).scrollTop();
       var nav = $("#nav-wrap");
       var upButton = $("#scrollup-button");

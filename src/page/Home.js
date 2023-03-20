@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import $ from "jquery";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
-import About from "../Components/About";
-import CV from "../Components/CV";
-import Contact from "../Components/Contact";
+import Header from "../Components/Home/Header";
+import Footer from "../Components/layout/Footer";
+import About from "../Components/Home/About";
+import CV from "../Components/Home/CV";
+import Contact from "../Components/shared/Contact";
 
 class App extends Component {
   constructor(props) {

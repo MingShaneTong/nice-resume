@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import $ from "jquery";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import { Navigation, TopButton } from "../layout/Navigation";
 
 class Header extends Component {
   render() {
@@ -12,51 +12,10 @@ class Header extends Component {
     const name = this.props.data.name;
     const description = this.props.data.description;
 
-    const onToggleNav = function() {
-      $("#nav-wrap > ul#nav").toggle();
-    }
-
     return (
       <header id="home">
         <ParticlesBg type="circle" bg={true} />
-
-        <nav id="nav-wrap">
-          <a className="mobile-btn" title="Show navigation" onClick={onToggleNav}>
-            Toggle navigation
-          </a>
-
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#cv">
-                cv
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <Navigation active="home" />
 
         <div className="row banner">
           <div className="banner-text">
@@ -85,12 +44,7 @@ class Header extends Component {
             <i className="icon-down-circle"></i>
           </a>
         </p>
-
-        <p className="scrollup" id="scrollup-button">
-          <a className="smoothscroll" data-anchor="#home">
-            <i className="icon-up-circle"></i>
-          </a>
-        </p>
+        <TopButton />
       </header>
     );
   }

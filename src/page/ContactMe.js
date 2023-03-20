@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import $ from "jquery";
-import Contact from "../Components/Contact";
+import Contact from "../Components/shared/Contact";
+import Header from "../Components/ContactMe/Header";
+import Footer from "../Components/layout/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -32,7 +34,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         <Contact data={this.state.data.main} />
+        <Footer data={this.state.data.main} />
       </div>
     );
   }

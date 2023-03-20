@@ -1,0 +1,196 @@
+{
+  "main": {
+    "name": "Ming Shane Tong",
+    "description": "I am a Software Engineer located in Wellington, New Zealand. I graduated from Victoria University of Wellington with a Bachelor of Science majoring in Computer Science and Mathematics and specialising in Artifical Intelligence.",
+    "bio": "I have a strong interest in web development, data analysis and machine learning and seeking a role as a software developer where I can utilize my proficient problem-solving skills and my technical experience in software engineering. I am passion about exploring technology and algorithms to build solutions to overcomes difficult challenges. I am motivated by the lessons that I learn from working on a range of projects as it teaches me skills that I can carry into my next challenge.",
+    "contactmessage": "Please use the following form to get in touch with me. Messages are sent through Google Forms. ",
+    "email": "mstong.work@gmail.com",
+    "github": "https://github.com/MingShaneTong",
+    "linkedin": "https://www.linkedin.com/in/mingshanetong/",
+    "project": "",
+    "address":{
+      "city": "Wellington, New Zealand"
+    },
+    "website": "https://mingshanetong.github.io/",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/mingshanetong/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/MingShaneTong",
+        "className":"fa fa-github"
+      }
+    ],
+    "contactform": {
+      "action": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSenPEPQYjTcD77E6Jhm1jDVJxijU4qRITpmDz5AWhnXiZPnTw/formResponse",
+      "nameentry": "entry.2005620554",
+      "emailentry": "entry.1045781291",
+      "subjectentry": "entry.1673269744",
+      "messageentry": "entry.839337160"
+    }
+  },
+  "cv":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school": "Victoria University of Wellington",
+        "degree": "Bachelor of Science, Computer Science and Mathematics",
+        "graduated": "November 2022",
+        "description": [
+          "Specializing in Artificial Intelligence",
+          "GPA: 8.44/9.0"
+        ]
+      }
+    ],
+    "work":[
+      {
+        "company": "FNZ",
+        "positions": [{
+          "title": "Software Engineer / Graduate Analyst Developer",
+          "years": "Nov 2022 - Present",
+          "description": [
+            "Developed and maintained automated smoke and regression tests using Selenium utilizing the Page Object Model.",
+            "Advanced misuse testing using Cypress.io to automate the detection of common vulnerabilities on over two thousand pages on client platforms at FNZ.",
+            "Utilized the Cucumber framework to guide testing under the Behavioral Driven Development methodology.",
+            "Resolved security defects present in the applications."
+          ]
+        },
+        {
+          "title": "Intern Analyst Developer",
+          "years": "Nov 2021 - Nov 2022",
+          "description": [
+            "Created a web application to monitor the uptime of software environments to detect and prevent issues during usage and before deployment.",
+            "Built the backend and Windows Service application that schedules the time to perform a health check on the environment and implemented an API to allow the data to be requested by the website.",
+            "Improved the software architecture of the application by taking into consideration the discoveries made in the previous design and listening from experiences of developers in the team."
+          ]
+        }
+        ]
+      },
+      {
+        "company": "Victoria University of Wellington",
+        "positions": [
+          {
+            "title": "Computer Science Course Tutor",
+            "years": "Feb 2021 - Oct 2021",
+            "description": [
+              "Tutored for the Computer Science Introductory courses, COMP102 and COMP103, teaching over four hundred students in each course fundamental programming concepts and techniques.",
+              "Assisted students in their learning by organizing tutorials, marking assignments, and offering suggestions and feedback."
+            ]
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Languages", 
+        "value" : [
+          "Java",
+          "C#",
+          "Python",
+          "SQL",
+          "NoSQL",
+          "JavaScript",
+          "TypeScript",
+          "C",
+          "C++",
+          "PHP",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "skill": "Tools",
+        "value": [
+          "Git", 
+          "Selenium", 
+          "Cypress.io", 
+          "Jira", 
+          "Confluence", 
+          "Trello", 
+          "Docker", 
+          "Firebase", 
+          "Amazon Web Service"
+        ]
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"cv Website",
+        "category":"A React based cv website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"cv Website",
+        "category":"A React based cv website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}

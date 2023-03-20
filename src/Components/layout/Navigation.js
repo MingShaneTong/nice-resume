@@ -13,17 +13,17 @@ export function Navigation({ active }) {
 
       <ul id="nav" className="nav">
         <li className={ active == "home" ? "current" : "" }>
-          <a href="/">
+          <a href="#/">
             Home
           </a>
         </li>
         <li className={ active == "projects" ? "current" : "" }>
-          <a href="/#/projects">
+          <a href="#/projects">
             Projects
           </a>
         </li>
         <li className={ active == "contactme" ? "current" : "" }>
-          <a href="/#/contactme">
+          <a href="#/contactme">
             Contact Me
           </a>
         </li>

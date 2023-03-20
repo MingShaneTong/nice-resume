@@ -6,6 +6,7 @@ const resizeAction = function() {
     $("#nav-wrap > ul#nav").show();
   } else {
     $("#nav-wrap > .mobile-btn").show();
+    $("#nav-wrap > ul#nav").hide();
   }
 }
 
@@ -13,7 +14,7 @@ jQuery(document).ready(function($) {
   var time = 300;
   setTimeout(function() {
     resizeAction();
-    
+
     $("h1.responsive-headline").fitText(1, { minFontSize: "40px", maxFontSize: "90px" });
 
     $(".smoothscroll").on("click", function(e) {

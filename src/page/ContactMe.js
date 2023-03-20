@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import $ from "jquery";
-import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import CV from "./Components/CV";
-import Contact from "./Components/Contact";
+import Contact from "../Components/shared/Contact";
+import Header from "../Components/ContactMe/Header";
+import Footer from "../Components/layout/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -37,9 +34,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header data={this.state.data.main} />
-        <About data={this.state.data.main} />
-        <CV data={this.state.data.cv} />
+        <Header />
         <Contact data={this.state.data.main} />
         <Footer data={this.state.data.main} />
       </div>

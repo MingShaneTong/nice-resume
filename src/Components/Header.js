@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import $ from "jquery";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
@@ -11,16 +12,17 @@ class Header extends Component {
     const name = this.props.data.name;
     const description = this.props.data.description;
 
+    const onToggleNav = function() {
+      $("#nav-wrap > ul#nav").toggle();
+    }
+
     return (
       <header id="home">
         <ParticlesBg type="circle" bg={true} />
 
         <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
+          <a className="mobile-btn" title="Show navigation" onClick={onToggleNav}>
+            Toggle navigation
           </a>
 
           <ul id="nav" className="nav">

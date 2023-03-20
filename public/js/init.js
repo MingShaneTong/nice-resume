@@ -1,6 +1,14 @@
 jQuery(document).ready(function($) {
   var time = 380;
   setTimeout(function() {
+    if ($(window).width() >= 767) {
+      $("#nav-wrap > .mobile-btn").hide();
+      $("#nav-wrap > ul#nav").show();
+    } else {
+      $("#nav-wrap > .mobile-btn").show();
+      $("#nav-wrap > ul#nav").hide();
+    }
+    
     $("h1.responsive-headline").fitText(1, { minFontSize: "40px", maxFontSize: "90px" });
 
     $(".smoothscroll").on("click", function(e) {
@@ -15,10 +23,7 @@ jQuery(document).ready(function($) {
             scrollTop: $target.offset().top
           },
           800,
-          "swing",
-          function() {
-            window.location.hash = target;
-          }
+          "swing"
         );
     });
 
@@ -26,6 +31,12 @@ jQuery(document).ready(function($) {
     $(window).on("resize", function() {
       $("header").css({ height: $(window).height() });
       $("body").css({ width: $(window).width() });
+      if ($(window).width() >= 767) {
+        $("#nav-wrap > .mobile-btn").hide();
+        $("#nav-wrap > ul#nav").show();
+      } else {
+        $("#nav-wrap > .mobile-btn").show();
+      }
     });
 
     $(window).on("scroll", function() {

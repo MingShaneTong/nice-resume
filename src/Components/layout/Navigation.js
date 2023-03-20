@@ -32,9 +32,11 @@ export function Navigation({ active }) {
   )
 }
 
-export function TopButton() {
+export function TopButton({ display }) {
   return (
-    <p className="scrollup" id="scrollup-button">
+    <p className="scrollup" id="scrollup-button" 
+      style={{ display: display ? "block": "none"}}
+    >
       <a className="smoothscroll" data-anchor="#home">
         <i className="icon-up-circle"></i>
       </a>

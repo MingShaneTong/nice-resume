@@ -14,7 +14,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg type="lines" bg={true} />
         <Navigation active="home" />
 
         <div className="row banner">
@@ -44,7 +44,7 @@ class Header extends Component {
             <i className="icon-down-circle"></i>
           </a>
         </p>
-        <TopButton />
+        <TopButton display={false} />
       </header>
     );
   }

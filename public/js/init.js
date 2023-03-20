@@ -1,7 +1,6 @@
 jQuery(document).ready(function($) {
-  var time = 150;
+  var time = 300;
   setTimeout(function() {
-    $("#scrollup-button").hide();
     if ($(window).width() >= 767) {
       $("#nav-wrap > .mobile-btn").hide();
       $("#nav-wrap > ul#nav").show();

@@ -2,7 +2,7 @@ import $ from "jquery";
 
 export function Navigation({ active }) {
   const onToggleNav = function() {
-    $("#nav-wrap > ul#nav").toggle();
+    $("#nav-wrap > ul#nav").toggleClass("hideNav");
   }
 
   return (
@@ -11,7 +11,7 @@ export function Navigation({ active }) {
         Toggle navigation
       </a>
 
-      <ul id="nav" className="nav">
+      <ul id="nav" className="nav hideNav">
         <li className={ active == "home" ? "current" : "" }>
           <a href="#/">
             Home

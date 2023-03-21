@@ -5,7 +5,17 @@
 *   03-18-2014
 
 /* ================================================================== */
+@media only screen and (min-width: 767px) {
+   #nav-wrap > a.mobile-btn { display: none; }
+   #nav-wrap > ul#nav { display: block; }
+   .hideNav { display: inherit; }
+}
 
+@media only screen and (max-width: 767px) {
+   #nav-wrap > a.mobile-btn { display: block; }
+   #nav-wrap > ul#nav { display: none; }
+   .hideNav { display: none !important; }
+}
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
@@ -123,7 +133,7 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
+      right: 64px;
    }
 
 	#nav-wrap > a:before,

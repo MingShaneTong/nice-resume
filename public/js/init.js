@@ -1,24 +1,9 @@
-const resizeAction = function() {
-  $("header#home").css({ height: $(window).height() });
-  $("body").css({ width: $(window).width() });
-  if ($(window).width() >= 767) {
-    $("#nav-wrap > .mobile-btn").hide();
-    $("#nav-wrap > ul#nav").show();
-  } else {
-    $("#nav-wrap > .mobile-btn").show();
-    $("#nav-wrap > ul#nav").hide();
-  }
-}
-
 jQuery(document).ready(function($) {
   var time = 300;
   setTimeout(function() {
-    resizeAction();
-
     $("h1.responsive-headline").fitText(1, { minFontSize: "40px", maxFontSize: "90px" });
 
     $(".smoothscroll").on("click", function(e) {
-      e.preventDefault();
       var target = $(this).data('anchor'),
         $target = $(target);
 
@@ -32,9 +17,6 @@ jQuery(document).ready(function($) {
           "swing"
         );
     });
-
-    $("header#home").css({ height: $(window).height() });
-    $(window).on("resize", resizeAction);
 
     $(window).on("scroll", function() {
       var h = $("header#home").height();

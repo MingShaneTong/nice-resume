@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import Header from "../Components/Projects/Header";
+import Portfolio from "../Components/Projects/Portfolio";
 import Footer from "../Components/layout/Footer";
 
 class App extends Component {
@@ -34,6 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Portfolio data={this.state.data.portfolio} />
         <Footer data={this.state.data.main} />
       </div>
     );

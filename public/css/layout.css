@@ -416,7 +416,7 @@ ul#nav li.current a { color: #fe6928; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+/* #portfolio {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
@@ -428,7 +428,7 @@ ul#nav li.current a { color: #fe6928; }
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
-}
+} */
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
@@ -1031,4 +1031,69 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+
+.project, .project h1, .project h2 {
+   color: #f0f8ff;
+}
+
+#portfolio > .project {
+   display: flex;
+}
+
+.project .image-col {
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+
+.project h2 {
+   font-size: 15px;
+   text-transform: uppercase;
+   font-family: 'opensans-light', sans-serif;
+}
+
+.project p {
+   font-size: 16px;
+}
+
+.project ul.technologies {
+   display: flex;
+}
+
+.project ul.technologies li {
+   margin: 0px 10px 5px 0px;
+   font-family: 'opensans-semibold', sans-serif;
+   color: #878787;
+   transition-duration: 0.5s;
+}
+
+.project ul.technologies li:hover {
+   color: #ffffff;
+}
+
+
+.project ul.projects li a {
+   color: #ffffff;
+}
+
+.project ul.projects li.highlight a {
+   color: #fe6928;
+}
+
+.project ul.links li i {
+   font-size: 20px;
+}
+
+.project ul.links li a span {
+   color: inherit;
+   font-family: 'opensans-bold', sans-serif;
+   font-size: 18px;
+   transition-duration: 0.8s;
+   margin-right: 8px;
+}
+
+.project ul.links li a span:hover {
+   color: inherit;
+   margin-right: 24px;
 }

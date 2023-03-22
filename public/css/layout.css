@@ -1038,7 +1038,25 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 #portfolio > .project {
+   padding-top: 40px;
+   padding-bottom: 30px;
+}
+
+#portfolio > .project:nth-child(3n+1) {
+   background-color: #0f0f0f;
+}
+
+#portfolio > .project:nth-child(3n+2) {
+   background-color: #202020;
+}
+
+#portfolio > .project:nth-child(3n) {
+   background-color: #191919;
+}
+
+.project > .row {
    display: flex;
+   flex-wrap: wrap;
 }
 
 .project .image-col {
@@ -1073,11 +1091,11 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 
-.project ul.projects li a {
+.project ul.links li a {
    color: #ffffff;
 }
 
-.project ul.projects li.highlight a {
+.project ul.links li.highlight a {
    color: #fe6928;
 }
 

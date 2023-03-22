@@ -143,6 +143,84 @@
             "className": ""
           }
         ]
+      },
+      
+      {
+        "subtitle": "Fitness & Wellness Coaching Platform",
+        "title": "Fit & Healthy",
+        "description": "Server rendered, progressive web application for online fitness & health coaching. Providing workout programs, nutritions plans, workout logs, follow up with client's progress and more.",
+        "technologies": [
+          "NuxtJs", 
+          "VueJs", 
+          "JavaScript", 
+          "Firebase", 
+          "SASS"
+        ],
+        "image": "01.jpg",
+        "links": [
+          {
+            "text": "Visit the website",
+            "url": "https://github.com/MingShaneTong",
+            "className": "highlight"
+          },
+          {
+            "text": "Visit the website",
+            "url": "https://github.com/MingShaneTong",
+            "className": ""
+          }
+        ]
+      },
+      
+      {
+        "subtitle": "Fitness & Wellness Coaching Platform",
+        "title": "Fit & Healthy",
+        "description": "Server rendered, progressive web application for online fitness & health coaching. Providing workout programs, nutritions plans, workout logs, follow up with client's progress and more.",
+        "technologies": [
+          "NuxtJs", 
+          "VueJs", 
+          "JavaScript", 
+          "Firebase", 
+          "SASS"
+        ],
+        "image": "01.jpg",
+        "links": [
+          {
+            "text": "Visit the website",
+            "url": "https://github.com/MingShaneTong",
+            "className": "highlight"
+          },
+          {
+            "text": "Visit the website",
+            "url": "https://github.com/MingShaneTong",
+            "className": ""
+          }
+        ]
+      },
+      
+      {
+        "subtitle": "Fitness & Wellness Coaching Platform",
+        "title": "Fit & Healthy",
+        "description": "Server rendered, progressive web application for online fitness & health coaching. Providing workout programs, nutritions plans, workout logs, follow up with client's progress and more.",
+        "technologies": [
+          "NuxtJs", 
+          "VueJs", 
+          "JavaScript", 
+          "Firebase", 
+          "SASS"
+        ],
+        "image": "01.jpg",
+        "links": [
+          {
+            "text": "Visit the website",
+            "url": "https://github.com/MingShaneTong",
+            "className": "highlight"
+          },
+          {
+            "text": "Visit the website",
+            "url": "https://github.com/MingShaneTong",
+            "className": ""
+          }
+        ]
       }
     ]
   }

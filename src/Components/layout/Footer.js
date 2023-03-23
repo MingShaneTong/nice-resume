@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import { scrollTo } from "../../func";
 
 class Footer extends Component {
   render() {
@@ -35,7 +36,7 @@ class Footer extends Component {
           </Fade>
 
           <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+            <a className="smoothscroll" title="Back to Top" onClick={() => scrollTo("#home")}>
               <i className="icon-up-open"></i>
             </a>
           </div>

@@ -120,105 +120,37 @@
   "portfolio":{
     "projects": [
       {
-        "subtitle": "Fitness & Wellness Coaching Platform",
-        "title": "Fit & Healthy",
-        "description": "Server rendered, progressive web application for online fitness & health coaching. Providing workout programs, nutritions plans, workout logs, follow up with client's progress and more.",
+        "title": "Pokemon Card Collection App",
+        "description": "Mobile Application to track the cards in my Pokemon Trading Card Game collection. Users are able to track cards across all generations.",
         "technologies": [
-          "NuxtJs", 
-          "VueJs", 
+          "React Native", 
           "JavaScript", 
-          "Firebase", 
-          "SASS"
+          "Firebase"
         ],
-        "image": "01.jpg",
+        "image": "PokemonCollection.gif",
         "links": [
           {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
+            "text": "View on GitHub",
+            "url": "https://github.com/MingShaneTong/PokemonTCGCardTracker",
             "className": "highlight"
-          },
-          {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
-            "className": ""
           }
         ]
       },
-      
       {
-        "subtitle": "Fitness & Wellness Coaching Platform",
-        "title": "Fit & Healthy",
-        "description": "Server rendered, progressive web application for online fitness & health coaching. Providing workout programs, nutritions plans, workout logs, follow up with client's progress and more.",
+        "title": "Xiangqi",
+        "description": "Multiplayer Chinese Chess Game that can be played on a browser. Players can connect to a game and play with their friends.",
         "technologies": [
-          "NuxtJs", 
-          "VueJs", 
+          "C#", 
           "JavaScript", 
-          "Firebase", 
-          "SASS"
+          "SignalR", 
+          "Unit Testing"
         ],
-        "image": "01.jpg",
+        "image": "xiangqi.gif",
         "links": [
           {
-            "text": "Visit the website",
+            "text": "View on GitHub",
             "url": "https://github.com/MingShaneTong",
             "className": "highlight"
-          },
-          {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
-            "className": ""
-          }
-        ]
-      },
-      
-      {
-        "subtitle": "Fitness & Wellness Coaching Platform",
-        "title": "Fit & Healthy",
-        "description": "Server rendered, progressive web application for online fitness & health coaching. Providing workout programs, nutritions plans, workout logs, follow up with client's progress and more.",
-        "technologies": [
-          "NuxtJs", 
-          "VueJs", 
-          "JavaScript", 
-          "Firebase", 
-          "SASS"
-        ],
-        "image": "01.jpg",
-        "links": [
-          {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
-            "className": "highlight"
-          },
-          {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
-            "className": ""
-          }
-        ]
-      },
-      
-      {
-        "subtitle": "Fitness & Wellness Coaching Platform",
-        "title": "Fit & Healthy",
-        "description": "Server rendered, progressive web application for online fitness & health coaching. Providing workout programs, nutritions plans, workout logs, follow up with client's progress and more.",
-        "technologies": [
-          "NuxtJs", 
-          "VueJs", 
-          "JavaScript", 
-          "Firebase", 
-          "SASS"
-        ],
-        "image": "01.jpg",
-        "links": [
-          {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
-            "className": "highlight"
-          },
-          {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
-            "className": ""
           }
         ]
       }

@@ -1057,12 +1057,18 @@ footer .social-links li:first-child { margin-left: 0; }
 .project > .row {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
 }
 
-.project .image-col {
-   justify-content: center;
-   display: flex;
-   align-items: center;
+.project > .row > .main-col {
+   margin-bottom: 48px;
+}
+
+.project > .row > .image-col img {
+   max-height: 80vh;
+   display: block;
+   margin: 0 auto;
 }
 
 .project h2 {
@@ -1077,10 +1083,11 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .project ul.technologies {
    display: flex;
+   flex-wrap: wrap;
 }
 
 .project ul.technologies li {
-   margin: 0px 10px 5px 0px;
+   margin: 0px 16px 10px 0px;
    font-family: 'opensans-semibold', sans-serif;
    color: #878787;
    transition-duration: 0.5s;

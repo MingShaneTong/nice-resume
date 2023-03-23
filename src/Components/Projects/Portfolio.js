@@ -11,7 +11,6 @@ class Portfolio extends Component {
           <div className="project">
             <div className="row">
               <div className="six columns main-col">
-                <h2>{project.subtitle}</h2>
                 <h1>{project.title}</h1>
                 <p>{project.description}</p>
                 <ul className="technologies">

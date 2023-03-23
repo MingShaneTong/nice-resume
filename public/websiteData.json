@@ -120,27 +120,20 @@
   "portfolio":{
     "projects": [
       {
-        "subtitle": "Fitness & Wellness Coaching Platform",
-        "title": "Fit & Healthy",
-        "description": "Server rendered, progressive web application for online fitness & health coaching. Providing workout programs, nutritions plans, workout logs, follow up with client's progress and more.",
+        "subtitle": "Card Collection Mobile Application",
+        "title": "Pokemon Card Collection App",
+        "description": "Mobile Application to track the cards in my collection. Users are able to track both old and new cards also tracking the quantity needed for a game deck.",
         "technologies": [
-          "NuxtJs", 
-          "VueJs", 
+          "React Native", 
           "JavaScript", 
-          "Firebase", 
-          "SASS"
+          "Firebase"
         ],
-        "image": "01.jpg",
+        "image": "PokemonCollection.gif",
         "links": [
           {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
+            "text": "View on Github",
+            "url": "https://github.com/MingShaneTong/PokemonTCGCardTracker",
             "className": "highlight"
-          },
-          {
-            "text": "Visit the website",
-            "url": "https://github.com/MingShaneTong",
-            "className": ""
           }
         ]
       },
@@ -182,7 +175,7 @@
           "Firebase", 
           "SASS"
         ],
-        "image": "01.jpg",
+        "image": "piture.png",
         "links": [
           {
             "text": "Visit the website",

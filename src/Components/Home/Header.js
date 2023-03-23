@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import { Navigation, TopButton } from "../layout/Navigation";
+import { scrollTo } from "../../func";
 
 class Header extends Component {
   render() {
@@ -40,7 +41,7 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" data-anchor="#about">
+          <a className="smoothscroll" onClick={() => scrollTo("#about")}>
             <i className="icon-down-circle"></i>
           </a>
         </p>

@@ -1,4 +1,5 @@
 import $ from "jquery";
+import { scrollTo } from "../../func";
 
 export function Navigation({ active }) {
   const onToggleNav = function() {
@@ -37,7 +38,7 @@ export function TopButton({ display }) {
     <p className="scrollup" id="scrollup-button" 
       style={{ display: display ? "block": "none"}}
     >
-      <a className="smoothscroll" data-anchor="#home">
+      <a className="smoothscroll" onClick={() => scrollTo("#home")}>
         <i className="icon-up-circle"></i>
       </a>
     </p>

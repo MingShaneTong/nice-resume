@@ -155,5 +155,32 @@
         ]
       }
     ]
+  },
+  "current": {
+    "projects": [
+      {
+        "title": "Scrappy Webpage Tracker",
+        "description": "To keep track of changes to a website by documenting screenshots and storing on Jira. I want to use this program to track different prices or value listings on multiple websites. I also want to implement a 'Cucumber' like language to instruct the program while navigating the pages such as using the pagination or clicking links to view things in detail. ",
+        "technologies": [
+          "Java", 
+          "PlayWright", 
+          "Jira Rest Api"
+        ],
+        "links": []
+      }
+    ],
+    "courses": [
+      {
+        "title": "Google Data Analytics Certificate (Audited)",
+        "description": "Studying the content of this certificate to gain an understanding on data analytics and data science.",
+        "links": [
+          {
+            "text": "View Course Details",
+            "url": "https://grow.google/certificates/data-analytics/",
+            "className": "highlight"
+          }
+        ]
+      }
+    ]
   }
 }

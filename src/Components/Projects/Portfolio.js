@@ -13,7 +13,7 @@ class Portfolio extends Component {
               <div className="six columns main-col">
                 <h1>{project.title}</h1>
                 <p>{project.description}</p>
-                <ul className="technologies">
+                <ul className="technologies tags">
                   {project.technologies.map((tech) => <li>{tech}</li>)}
                 </ul>
                 <ul className="links">

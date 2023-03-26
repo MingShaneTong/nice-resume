@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import $ from "jquery";
 import Header from "../Components/CurrentWork/Header";
 import Footer from "../Components/layout/Footer";
+import Current from "../Components/CurrentWork/Current";
 
 class App extends Component {
   constructor(props) {
@@ -34,6 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Current data={this.state.data.current} />
         <Footer data={this.state.data.main} />
       </div>
     );

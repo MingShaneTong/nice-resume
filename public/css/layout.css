@@ -1081,36 +1081,32 @@ footer .social-links li:first-child { margin-left: 0; }
    font-size: 16px;
 }
 
-.project ul.technologies {
+ul.tags {
    display: flex;
    flex-wrap: wrap;
 }
 
-.project ul.technologies li {
+ul.tags li {
    margin: 0px 16px 10px 0px;
    font-family: 'opensans-semibold', sans-serif;
    color: #878787;
    transition-duration: 0.5s;
 }
 
-.project ul.technologies li:hover {
-   color: #ffffff;
-}
-
-
-.project ul.links li a {
-   color: #ffffff;
-}
-
-.project ul.links li.highlight a {
+ul.tags li:hover {
    color: #fe6928;
 }
 
-.project ul.links li i {
-   font-size: 20px;
+
+ul.links li a {
+   color: #ffffff;
 }
 
-.project ul.links li a span {
+ul.links li.highlight a {
+   color: #fe6928;
+}
+
+ul.links li a span {
    color: inherit;
    font-family: 'opensans-bold', sans-serif;
    font-size: 18px;
@@ -1118,7 +1114,13 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 8px;
 }
 
-.project ul.links li a span:hover {
+ul.links li a span:hover {
    color: inherit;
    margin-right: 24px;
+}
+
+#current {
+   background-color: #ffffff;
+   padding-top: 48px;
+   padding-bottom: 48px;
 }

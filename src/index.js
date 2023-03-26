@@ -4,6 +4,7 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import './index.css';
 import Home from './page/Home';
 import Projects from './page/Projects';
+import CurrentWork from './page/CurrentWork';
 import ContactMe from './page/ContactMe';
 
 const router = createHashRouter([
@@ -14,6 +15,10 @@ const router = createHashRouter([
   {
     path: "/projects",
     element: <Projects />,
+  },
+  {
+    path: "/currentwork",
+    element: <CurrentWork />,
   },
   {
     path: "/contactme",

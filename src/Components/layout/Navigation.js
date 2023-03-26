@@ -23,6 +23,11 @@ export function Navigation({ active }) {
             Projects
           </a>
         </li>
+        <li className={ active == "currentwork" ? "current" : "" }>
+          <a href="#/currentwork">
+            Current Work
+          </a>
+        </li>
         <li className={ active == "contactme" ? "current" : "" }>
           <a href="#/contactme">
             Contact Me
